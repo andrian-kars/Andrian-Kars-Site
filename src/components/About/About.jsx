@@ -12,7 +12,8 @@ const About = () => {
                 <div className={s.content}>
                     <div className={s.top_image}></div>
                     <div className={s.info}>
-                        <p className={s.text}>I am very ambitious and fast learning Front-End developer who is looking for new opportunities. I also have strong passion to self-improvement and I am very responsible person who always tries to understand how it works under the hood. Highly motivated to progress with my abilities and grow professionally. I am confident in my skills.</p>
+                        <p className={s.text}>I am very ambitious and fast learning Front-End developer who is looking for new opportunities. I also have strong passion to self-improvement and I am very responsible person who always tries to understand how it works under the hood.</p>
+                        <p className={s.text}>Highly motivated to progress with my abilities and grow professionally. I am confident in my skills.</p>
                         <div className={s.abilities}>
                             <div className={s.items}>
                                 <p className={s.heading}>Hard Skills</p>
@@ -176,24 +177,31 @@ const About = () => {
                                 <p className={s.heading}>Soft Skills</p>
                                 <div className={s.soft_skills}>
                                     <p className={s.soft}>Adaptability</p>
-                                    <p className={s.soft}>Critical thinking</p>
-                                    <p className={s.soft}>Self-motivation</p>
+                                    <p className={s.soft}>Ability to fast-learning</p>
                                     <p className={s.soft}>Analytical Understanding</p>
+                                    <p className={s.soft}>Attention to details</p>
                                     <p className={s.soft}>Good Communication and Teamwork</p>
+                                    <p className={s.soft}>Attention to details</p>
                                 </div>
                             </div>
                         </div>
                         <div className={s.facts}>
-                            <p className={s.heading}>Fun Facts</p>
+                            <p className={s.heading}>Facts</p>
                             <div className={s.facts_content}>
                                 <div className={s.fact}>
                                     <div className={s.like}></div>
+                                    <p className={s.number}>9</p>
+                                    <p className={s.achievement}>Projects Done</p>
                                 </div>
                                 <div className={s.fact}>
                                     <div className={s.year}></div>
+                                    <p className={s.number}>1</p>
+                                    <p className={s.achievement}>Year Experience</p>
                                 </div>
                                 <div className={s.fact}>
-                                    <div className={s.finish}></div>
+                                    <div className={s.medal}></div>
+                                    <p className={s.number}>4</p>
+                                    <p className={s.achievement}>Certificates</p>
                                 </div>
                             </div>
                         </div>
