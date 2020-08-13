@@ -34,10 +34,10 @@ const Navigation = () => {
                     <li className={s.item}>
                         <NavLink className={s.link} activeClassName={s.active} exact to="/resume">My resume</NavLink>
                     </li>
-                    <li className={s.item}>Services</li>
-                    <li className={s.item}>Portfolio</li>
-                    <li className={s.item}>My blog</li>
-                    <li className={s.item}>Contact</li>
+                    <li className={s.item}>
+                        <NavLink className={s.link} activeClassName={s.active} exact to="/portfolio">Portfolio</NavLink></li>
+                    <li className={s.item}>
+                        <NavLink className={s.link} activeClassName={s.active} exact to="/contact">Contact</NavLink></li>
                 </ul>
             </nav>
         </section>

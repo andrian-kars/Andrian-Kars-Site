@@ -1,0 +1,162 @@
+.abilities {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 30px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+.ability {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #BEBEBE;
+}
+
+.name {
+    width: 200px;
+    margin: 10px 20px 10px 0;
+}
+
+.soft_skills {
+    margin-top: 40px;
+}
+
+.soft {
+    position: relative;
+    padding-left: 20px;
+    width: auto;
+    margin-bottom: 25px;
+}
+
+.soft::before {
+    content: "";
+    position: absolute;
+    top: 5px; left: 0;
+    width: 10px; 
+    height: 10px;
+    border-radius: 50%;
+    background-color: #FFD033;
+}
+
+.level {
+    color: #BEBEBE;
+    margin: 10px 0;
+}
+
+.true {
+    width: 13px;
+    height: 13px;
+    background-color: #FFD033;
+    border-radius: 50%;
+    margin-right: 11px;
+}
+
+.true:last-child {
+    margin-right: 0;
+}
+
+.false {
+    width: 13px;
+    height: 13px;
+    background-color: #FFD033;
+    opacity: 0.6;
+    background-color: #FFD033;
+    border-radius: 50%;
+    margin-right: 11px;
+}
+
+.false:last-child {
+    margin-right: 0;
+}
+
+.heading {
+    position: relative;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+
+.heading::before {
+    content: "";
+    position: absolute;
+    top: 15px; left: 0;
+    width: 70px; 
+    height: 100%;
+    border-bottom: 3px dashed #FFD033;
+}
+
+.info {
+    margin: 30px;
+}
+
+.text {
+    color: #111;
+    font-size: 17px;
+    line-height: 32px;
+    margin: 0 0 10px;
+}
+
+.facts {
+    margin-bottom: 70px;
+}
+
+.facts_content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.like,
+.year,
+.medal {
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.like {
+    background-image: url(../../../images/background/like.svg);
+}
+
+.year {
+    background-image: url(../../../images/background/year.svg);
+}
+
+.medal {
+    background-image: url(../../../images/background/medal.svg);
+}
+
+.fact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.number {
+    font-size: 28px;
+    font-weight: 500;
+    border-bottom: 1.5px solid #FFD033;
+    min-width: 15px;
+    padding-bottom: 15px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.achievement {
+    color: #666;
+    margin: 0;
+    font-weight: 500;
+    font-size: 15px;
+}

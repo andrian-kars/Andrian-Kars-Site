@@ -1,14 +1,14 @@
 import React from 'react'
-import s from './Resume.module.scss'
-import Navigation from './../Navigation/Navigation';
+import s from './Portfolio.module.scss'
+import Navigation from '../Navigation/Navigation';
 
-const Resume = () => {
+const Portfolio = () => {
     return (
         <section className={s.whrapper}>
             <div className={s.navigation}>
                 <Navigation className={s.navigation} />
             </div>
-            <div className={s.resume}>
+            <div className={s.portfolio}>
                 <div className={s.content}>
 
                 </div>
@@ -17,4 +17,4 @@ const Resume = () => {
     )
 }
 
-export default Resume
+export default Portfolio
