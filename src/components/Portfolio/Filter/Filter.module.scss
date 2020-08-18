@@ -1,0 +1,23 @@
+.filter {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.item {
+    margin-right: 10px;
+}
+
+.link {
+    padding: 0 5px 10px;
+    border-bottom: 1.5px solid transparent;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.active {
+    border-bottom: 1.5px solid #FFD033;
+}
