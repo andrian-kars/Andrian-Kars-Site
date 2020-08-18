@@ -27,4 +27,94 @@
     width: 770px;
     background-color: #fff;
     box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.2);
+    padding: 30px;
+}
+
+.heading {
+    display: inline-block;
+    width: 100%;
+    font-size: 46px;
+    border-bottom: 2px solid #EBEBEB;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+.life {
+    display: flex;
+}
+.education {
+    margin-right: 70px;
+}
+
+.experience {
+    margin-right: 40px;
+}
+
+.header {
+    position: relative;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.header::before {
+    content: "";
+    position: absolute;
+    top: 15px; left: 0;
+    width: 70px; 
+    height: 100%;
+    border-bottom: 3px dashed #FFD033;
+}
+
+.item {
+    border-left: 1px solid #FFD033;
+    margin-left: 5px;
+}
+
+.time_line {
+    display: inline-block;
+    position: relative;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    padding-left: 20px;
+    margin-bottom: 7px;
+    height: 12px;
+}
+
+.time_line::after {
+    content: "";
+    position: absolute;
+    top: 14px; left: -6px;
+    width: 11px;
+    height: 11px;
+    background-color: #FFD033;
+    border-radius: 50%;
+    z-index: 6;
+}
+
+.time_line::before {
+    content: "";
+    position: absolute;
+    top: 10.5px; left: -5px;
+    width: 18px;
+    height: 18px;
+    background-color: #fff;
+    z-index: 5;
+}
+
+.place {
+    margin: 6px 0 10px;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 0 0 0 20px;
+}
+
+.description {
+    color: #111;
+    font-size: 16px;
+    line-height: 2;
+    margin: 0;
+    padding-left: 20px;
+    padding-bottom: 50px;
 }
