@@ -1,0 +1,75 @@
+.project {
+    width: 50%;
+    max-width: 50%;
+    margin: 15px;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.4);
+    overflow: hidden;
+    max-width: 325px;
+    background-color: #ECF0F1;
+}
+
+.image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 250px;
+    // background-image: url(../../../usercontent/projects/apollo.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.4);
+    transition: all .4s ease-in-out;
+    transform: scale(1);
+}
+
+.popup {
+    position: relative;
+    cursor: pointer;
+    opacity: 0;
+    transition: all .4s ease-in-out;
+    z-index: 6;
+}
+
+.image:hover .popup {
+    opacity: 1;
+}
+
+.image:hover {
+    transform: scale(1.05);
+}
+
+.shades {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba($color: #000000, $alpha: .7);
+    z-index: 5;
+    opacity: 0;
+    transition: all .4s ease-in-out;
+}
+
+.image:hover .shades {
+    opacity: 1;
+}
+
+.heading {
+    margin: 0 0 10px;
+    text-align: center;
+    position: relative;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.description {
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFD033;
+    margin: 0;
+    text-align: center;
+    position: relative;
+}

@@ -1,6 +1,6 @@
 .filter {
     display: flex;
-    margin-bottom: 30px;
+    margin: 0 0 20px 15px;
 }
 
 .item {
@@ -12,12 +12,15 @@
     border-bottom: 1.5px solid transparent;
     display: inline-block;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 0.5px;
     cursor: pointer;
     text-transform: uppercase;
+    color: #666;
 }
 
 .active {
     border-bottom: 1.5px solid #FFD033;
+    color: #000;
+    font-weight: 700;
 }
