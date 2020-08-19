@@ -11,25 +11,19 @@ const SASSProjects = () => {
         <div className={s.whrapper}>
             <div className={s.row}>
                 <NewProject
-                    ProjectName="Social Network"
-                    ProjectTechnologies="tbd SASS / React"
-                    ProjectImage={{ backgroundImage: `url(${Brainbook})` }}
-                    ProjectLink="https://github.com/andrian-kars/social-network-brainbook"
-                />
-                <NewProject
                     ProjectName="This Website"
-                    ProjectTechnologies="React"
+                    ProjectTechnologies="SASS / React"
                     ProjectImage={{ backgroundImage: `url(${AndrianKars})` }}
                     ProjectLink="http://andrian-kars.ru/"
                 />
-            </div>
-            <div className={s.row}>
                 <NewProject
                     ProjectName="Mavic 2"
                     ProjectTechnologies="tbd SASS / JavaScript"
                     ProjectImage={{ backgroundImage: `url(${Mavic2})` }}
                     ProjectLink="http://andrian-kars.ru/projects/mavic-2/index.html"
                 />
+            </div>
+            <div className={s.row}>
                 <NewProject
                     ProjectName="OSF Academy"
                     ProjectTechnologies="SASS / JavaScript"
