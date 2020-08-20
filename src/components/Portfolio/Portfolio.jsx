@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import s from './Portfolio.module.scss'
 import Navigation from '../Navigation/Navigation';
 import Filter from './Filter/Filter';
@@ -22,12 +22,14 @@ const Portfolio = () => {
                     <BrowserRouter>
                         <Filter />
                         <div className={s.projects}>
-                            <Route exact path="/portfolio/" render={() => <AllProjects />} />
-                            <Route path="/portfolio/html5" render={() => <HTML5Projects />} />
-                            <Route path="/portfolio/sass" render={() => <SASSProjects />} />
-                            <Route path="/portfolio/less" render={() => <LESSProjects />} />
-                            <Route path="/portfolio/javascript" render={() => <JSProjects />} />
-                            <Route path="/portfolio/react" render={() => <ReactProjects />} />
+                            <Switch>
+                                <Route exact path="/portfolio/" render={() => <AllProjects />} />
+                                <Route path="/portfolio/html5" render={() => <HTML5Projects />} />
+                                <Route path="/portfolio/sass" render={() => <SASSProjects />} />
+                                <Route path="/portfolio/less" render={() => <LESSProjects />} />
+                                <Route path="/portfolio/javascript" render={() => <JSProjects />} />
+                                <Route path="/portfolio/react" render={() => <ReactProjects />} />
+                            </Switch>
                         </div>
                     </BrowserRouter>
                 </div>
