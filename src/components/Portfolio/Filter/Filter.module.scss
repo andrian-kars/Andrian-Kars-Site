@@ -4,10 +4,10 @@
 
     @media (min-width: 620px) {
         margin-bottom: 20px;
-        text-align: left;
         margin: 0 0 5px 15px;
     }
     @media (min-width: 980px) {
+        text-align: left;
         margin: 0 0 15px 15px;
     }
 }
@@ -29,12 +29,20 @@
     cursor: pointer;
     text-transform: uppercase;
     color: #666;
+    transition: .3s;
 
     @media (min-width: 620px) {
         font-size: 16px;
     }
     @media (min-width: 980px) {
     }
+}
+
+.link:hover,
+.link:active,
+.link:focus {
+    color: #000;
+    border-bottom: 1.5px solid #FFD033;
 }
 
 .active {

@@ -12,99 +12,117 @@ const Info = () => {
                     <div className={s.item}>
                         <div className={s.ability}>
                             <p className={s.name}>HTML/CSS/DOM</p>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
+                            <div className={s.switches}>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                            </div>
                         </div>
                         <p className={s.level}>Expert</p>
                     </div>
                     <div className={s.item}>
                         <div className={s.ability}>
                             <p className={s.name}>SCSS/LESS/Bootstrap</p>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
-                            <span className={s.false}></span>
+                            <div className={s.switches}>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                            </div>
                         </div>
                         <p className={s.level}>Advanced</p>
                     </div>
                     <div className={s.item}>
                         <div className={s.ability}>
                             <p className={s.name}>JS DOM(ES5, ES6, jQuery)</p>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
-                            <span className={s.false}></span>
-                            <span className={s.false}></span>
+                            <div className={s.switches}>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                            </div>
                         </div>
                         <p className={s.level}>Intermediate</p>
                     </div>
                     <div className={s.item}>
                         <div className={s.ability}>
                             <p className={s.name}>Cross-Brows./Responsible</p>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
+                            <div className={s.switches}>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                            </div>
                         </div>
                         <p className={s.level}>Expert</p>
                     </div>
                     <div className={s.item}>
                         <div className={s.ability}>
                             <p className={s.name}>React/Redux</p>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
-                            <span className={s.false}></span>
-                            <span className={s.false}></span>
+                            <div className={s.switches}>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                            </div>
                         </div>
                         <p className={s.level}>Intermediate</p>
                     </div>
                     <div className={s.item}>
                         <div className={s.ability}>
                             <p className={s.name}>AJAX/Restful API</p>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
-                            <span className={s.false}></span>
-                            <span className={s.false}></span>
+                            <div className={s.switches}>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                            </div>
                         </div>
                         <p className={s.level}>Intermediate</p>
                     </div>
                     <div className={s.item}>
                         <div className={s.ability}>
                             <p className={s.name}>Gulp/Webpack</p>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
-                            <span className={s.false}></span>
-                            <span className={s.false}></span>
+                            <div className={s.switches}>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                            </div>
                         </div>
                         <p className={s.level}>Intermediate</p>
                     </div>
                     <div className={s.item}>
                         <div className={s.ability}>
                             <p className={s.name}>Git/GitHub</p>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
-                            <span className={s.false}></span>
+                            <div className={s.switches}>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                            </div>
                         </div>
                         <p className={s.level}>Advanced</p>
                     </div>
                     <div className={s.item}>
                         <div className={s.ability}>
                             <p className={s.name}>Photoshop/Figma</p>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
-                            <span className={s.false}></span>
+                            <div className={s.switches}>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                            </div>
                         </div>
                         <p className={s.level}>Advanced</p>
                     </div>
@@ -114,55 +132,65 @@ const Info = () => {
                     <div className={s.item}>
                         <div className={s.ability}>
                             <p className={s.name}>English</p>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
-                            <span className={s.false}></span>
+                            <div className={s.switches}>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                            </div>
                         </div>
                         <p className={s.level}>C1</p>
                     </div>
                     <div className={s.item}>
                         <div className={s.ability}>
                             <p className={s.name}>Russian</p>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
+                            <div className={s.switches}>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                            </div>
                         </div>
                         <p className={s.level}>C2</p>
                     </div>
                     <div className={s.item}>
                         <div className={s.ability}>
                             <p className={s.name}>German</p>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
-                            <span className={s.false}></span>
-                            <span className={s.false}></span>
+                            <div className={s.switches}>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                            </div>
                         </div>
                         <p className={s.level}>B2</p>
                     </div>
                     <div className={s.item}>
                         <div className={s.ability}>
                             <p className={s.name}>Ukrainian</p>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
-                            <span className={s.true}></span>
+                            <div className={s.switches}>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                            </div>
                         </div>
                         <p className={s.level}>C2</p>
                     </div>
                     <div className={s.item}>
                         <div className={s.ability}>
                             <p className={s.name}>Japanese</p>
-                            <span className={s.true}></span>
-                            <span className={s.false}></span>
-                            <span className={s.false}></span>
-                            <span className={s.false}></span>
-                            <span className={s.false}></span>
+                            <div className={s.switches}>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                                <span className={s.true}></span>
+                            </div>
                         </div>
                         <p className={s.level}>A1</p>
                     </div>

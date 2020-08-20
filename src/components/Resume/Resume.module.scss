@@ -24,7 +24,6 @@
     flex-direction: column;
     align-items: center;
     background-color: #ECF0F1;
-    padding-bottom: 20px;
 
     @media (min-width: 980px) {
         align-items: start;
@@ -35,17 +34,13 @@
 }
 
 .content {
-    width: 300px;
+    width: 100%;
     background-color: #fff;
     box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.2);
-    padding: 15px;
+    padding: 20px;
 
     @media (min-width: 440px) {
-        width: 400px;
         padding: 30px;
-    }
-    @media (min-width: 620px) {
-        width: 570px;
     }
     @media (min-width: 980px) {
         width: 670px;
@@ -74,7 +69,7 @@
     display: flex;
     flex-direction: column-reverse;
 
-    @media (min-width: 620px) {
+    @media (min-width: 770px) {
         flex-direction: row;
     }
 }
@@ -85,7 +80,7 @@
     letter-spacing: -0.6px;
     margin-bottom: 25px;
 
-    @media (min-width: 620px) {
+    @media (min-width: 770px) {
         width: 50%;
         letter-spacing: initial;
     }

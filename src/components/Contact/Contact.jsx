@@ -23,7 +23,7 @@ const Contact = () => {
                                     </a>
                                     <div className={s.description}>
                                         <p className={s.top_text}>Mail Me</p>
-                                        <a className={`${s.bottom_text} ${s.smaller_text}`} href="mailto:andrian.karsanashvili@gmail.com">andrian.karsanashvili@gmail.com</a>
+                                        <a className={s.bottom_text} href="mailto:andrian.karsanashvili@gmail.com">andrian.karsanashvili@gmail.com</a>
                                     </div>
                                 </div>
                                 <div className={s.item}>
