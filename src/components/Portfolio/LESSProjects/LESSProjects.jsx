@@ -1,5 +1,5 @@
 import React from 'react'
-import s from './LESSProjects.module.scss'
+import s from './../AllProjects/AllProjects.module.scss'
 import NewProject from '../NewProject/NewProject'
 import Surface1 from './../../../usercontent/projects/surface1.jpg'
 import PersonalSite from './../../../usercontent/projects/personal-site.jpg'

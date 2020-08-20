@@ -1,10 +1,22 @@
 .filter {
-    display: flex;
-    margin: 0 0 20px 15px;
+    width: 100%;
+    text-align: center;
+
+    @media (min-width: 620px) {
+        margin-bottom: 20px;
+        text-align: left;
+        margin: 0 0 5px 15px;
+    }
+    @media (min-width: 980px) {
+        margin: 0 0 15px 15px;
+    }
 }
 
 .item {
+    display: inline-block;
     margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .link {
@@ -12,11 +24,17 @@
     border-bottom: 1.5px solid transparent;
     display: inline-block;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 0.5px;
     cursor: pointer;
     text-transform: uppercase;
     color: #666;
+
+    @media (min-width: 620px) {
+        font-size: 16px;
+    }
+    @media (min-width: 980px) {
+    }
 }
 
 .active {

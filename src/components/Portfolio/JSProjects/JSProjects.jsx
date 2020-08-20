@@ -1,5 +1,5 @@
 import React from 'react'
-import s from './JSProjects.module.scss'
+import s from './../AllProjects/AllProjects.module.scss'
 import NewProject from '../NewProject/NewProject'
 import Mavic2 from './../../../usercontent/projects/mavic-2.jpg'
 import OSFAcademy from './../../../usercontent/projects/osf-academy.jpg'

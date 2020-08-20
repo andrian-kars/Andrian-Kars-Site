@@ -29,15 +29,26 @@
 }
 
 .heading {
-    font-size: 28px;
+    display: inline;
+    font-size: 22px;
     margin: 0 0 30px;
+    letter-spacing: -0.6px;
+
+    @media (min-width: 1280px) {
+        font-size: 28px;
+        letter-spacing: initial;
+    }
 }
 
 .socials {
     width: 120px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 45px;
+    margin-bottom: 25px;
+
+    @media (min-width: 1280px) {
+        margin-bottom: 45px;
+    }
 }
 
 .social svg{
@@ -58,16 +69,19 @@
     left: 0;
     right: 0;
     background-color: #fff;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,1);
     z-index: 9;
 
     @media (min-width: 980px) {
+        background-color: #fff;
         position: static;
+        box-shadow: none;
     }
 }
 
 .navigation_whrapper {
     display: flex;
-    width: 300px;
+    width: 270px;
     margin: 0 auto;
     justify-content: space-between;
     padding: 5px 0;
@@ -103,6 +117,10 @@
     font-size: 0;
 
     @media (min-width: 980px) {
+        font-size: 13px;
+    }
+
+    @media (min-width: 1280px) {
         font-size: 14px;
     }
 }
@@ -120,8 +138,13 @@
 }
 
 .link svg {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
+
+    @media (min-width: 620px) {
+        width: 40px;
+        height: 40px;
+    }
 
     @media (min-width: 980px) {
         display: none;

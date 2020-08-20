@@ -1,5 +1,5 @@
 import React from 'react'
-import s from './ReactProjects.module.scss'
+import s from './../AllProjects/AllProjects.module.scss'
 import NewProject from '../NewProject/NewProject'
 import Brainbook from './../../../usercontent/projects/brainbook.jpg'
 import AndrianKars from './../../../usercontent/projects/andrian-kars.jpg'
