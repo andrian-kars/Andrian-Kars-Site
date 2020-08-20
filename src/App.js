@@ -16,6 +16,7 @@ function App() {
       <Route exact path="/portfolio" render={() => <Portfolio />} />
       <Route exact path="/contact" render={() => <Contact />} />
     </div>
+
   );
 }
 

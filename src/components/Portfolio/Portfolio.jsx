@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Route } from "react-router-dom";
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import s from './Portfolio.module.scss'
 import Navigation from '../Navigation/Navigation';
 import Filter from './Filter/Filter';
@@ -19,17 +20,23 @@ const Portfolio = () => {
             <div className={s.portfolio}>
                 <div className={s.content}>
                     <h3 className={s.heading}>Portfolio</h3>
-                    <BrowserRouter>
-                        <Filter />
-                        <div className={s.projects}>
-                            <Route exact path="/portfolio/" render={() => <AllProjects />} />
-                            <Route path="/portfolio/html5" render={() => <HTML5Projects />} />
-                            <Route path="/portfolio/sass" render={() => <SASSProjects />} />
-                            <Route path="/portfolio/less" render={() => <LESSProjects />} />
-                            <Route path="/portfolio/javascript" render={() => <JSProjects />} />
-                            <Route path="/portfolio/react" render={() => <ReactProjects />} />
-                        </div>
-                    </BrowserRouter>
+                    <Route render={({ location }) => (
+                        <TransitionGroup>
+                            <CSSTransition key={location.key} timeout={300} classNames="fade">
+                                <BrowserRouter>
+                                    <Filter />
+                                    <div className={s.projects}>
+                                        <Route exact path="/portfolio/" render={() => <AllProjects />} />
+                                        <Route path="/portfolio/html5" render={() => <HTML5Projects />} />
+                                        <Route path="/portfolio/sass" render={() => <SASSProjects />} />
+                                        <Route path="/portfolio/less" render={() => <LESSProjects />} />
+                                        <Route path="/portfolio/javascript" render={() => <JSProjects />} />
+                                        <Route path="/portfolio/react" render={() => <ReactProjects />} />
+                                    </div>
+                                </BrowserRouter>
+                            </CSSTransition>
+                        </TransitionGroup>
+                    )} />
                 </div>
             </div>
         </section>
