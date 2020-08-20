@@ -35,7 +35,7 @@ const Home = () => {
                             <li className={s.item}><p className={s.text}><span className={s.bold}>Job offers:</span>Availible</p></li>
                         </ul>
                         <div className={s.buttons}>
-                            <a className={s.button} href="./content/andrian-karsanashvili-cv.pdf" download>Resume</a>
+                            <a className={s.button} href="./usercontent/andrian-karsanashvili-cv.pdf" download target="_blank" rel="noopener noreferrer">Resume</a>
                             <a className={s.button} href="https://telegram.me/pmAndrian" rel="noopener noreferrer" target="_blank">Hire me</a>
                         </div>
                     </div>

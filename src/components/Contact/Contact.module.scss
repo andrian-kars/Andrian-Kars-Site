@@ -15,9 +15,6 @@
         left: 0;
         bottom: 0;
     }
-    @media (min-width: 1280px) {
-        min-width: 24.73%;
-    }
 }
 
 .contact {
@@ -33,10 +30,6 @@
         width: 75%;
         padding: 50px 0 50px 50px;
     }
-    @media (min-width: 1280px) {
-        width: 75.27%;
-        margin-left: 24.73%;
-    }
 }
 
 .content {
@@ -51,6 +44,7 @@
     @media (min-width: 980px) {
         width: 670px;
         padding: 30px;
+        height: 100vh;
     }
     @media (min-width: 1280px) {
         width: 770px;
