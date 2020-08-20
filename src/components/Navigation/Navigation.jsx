@@ -6,7 +6,7 @@ const Navigation = () => {
     return (
         <section className={s.main}>
             <div className={s.main_whrapper}>
-                <img className={s.avatar} src="./images/avatar.jpg" alt="my-avatar" />
+                <img className={s.avatar} src="../images/avatar.jpg" alt="my-avatar" />
                 <h1 className={s.heading}>Andrian Karsanashvili</h1>
                 <div className={s.socials}>
                     <a className={s.social} href="https://www.linkedin.com/in/andrian-kars/" rel="noopener noreferrer" target="_blank">
