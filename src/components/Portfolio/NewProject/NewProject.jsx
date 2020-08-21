@@ -4,13 +4,13 @@ import s from './NewProject.module.scss'
 const NewProject = (props) => {
     return (
         <div className={s.project}>
-            <a href={props.ProjectLink} style={props.ProjectImage} className={s.image} target="_blank" rel="noopener noreferrer">
+            <div style={props.ProjectImage} className={s.image}>
                 <div className={s.shades}></div>
-                <div className={s.popup}>
+                <a className={s.popup} href={props.ProjectLink} target="_blank" rel="noopener noreferrer">
                     <h2 className={s.heading}>{props.ProjectName}</h2>
                     <p className={s.description}>{props.ProjectTechnologies}</p>
-                </div>
-            </a>
+                </a>
+            </div>
         </div>
     )
 }

@@ -11,7 +11,7 @@ const Info = () => {
                     <p className={s.heading}>Hard Skills</p>
                     <div className={s.item}>
                         <div className={s.ability}>
-                            <p className={s.name}>HTML/CSS/DOM</p>
+                            <p className={s.name}>HTML/CSS</p>
                             <div className={s.switches}>
                                 <span className={s.true}></span>
                                 <span className={s.true}></span>
@@ -30,7 +30,7 @@ const Info = () => {
                                 <span className={s.true}></span>
                                 <span className={s.true}></span>
                                 <span className={s.true}></span>
-                                <span className={s.true}></span>
+                                <span className={s.false}></span>
                             </div>
                         </div>
                         <p className={s.level}>Advanced</p>
@@ -42,8 +42,8 @@ const Info = () => {
                                 <span className={s.true}></span>
                                 <span className={s.true}></span>
                                 <span className={s.true}></span>
-                                <span className={s.true}></span>
-                                <span className={s.true}></span>
+                                <span className={s.false}></span>
+                                <span className={s.false}></span>
                             </div>
                         </div>
                         <p className={s.level}>Intermediate</p>
@@ -68,8 +68,8 @@ const Info = () => {
                                 <span className={s.true}></span>
                                 <span className={s.true}></span>
                                 <span className={s.true}></span>
-                                <span className={s.true}></span>
-                                <span className={s.true}></span>
+                                <span className={s.false}></span>
+                                <span className={s.false}></span>
                             </div>
                         </div>
                         <p className={s.level}>Intermediate</p>
@@ -81,8 +81,8 @@ const Info = () => {
                                 <span className={s.true}></span>
                                 <span className={s.true}></span>
                                 <span className={s.true}></span>
-                                <span className={s.true}></span>
-                                <span className={s.true}></span>
+                                <span className={s.false}></span>
+                                <span className={s.false}></span>
                             </div>
                         </div>
                         <p className={s.level}>Intermediate</p>
@@ -94,8 +94,8 @@ const Info = () => {
                                 <span className={s.true}></span>
                                 <span className={s.true}></span>
                                 <span className={s.true}></span>
-                                <span className={s.true}></span>
-                                <span className={s.true}></span>
+                                <span className={s.false}></span>
+                                <span className={s.false}></span>
                             </div>
                         </div>
                         <p className={s.level}>Intermediate</p>
@@ -108,7 +108,7 @@ const Info = () => {
                                 <span className={s.true}></span>
                                 <span className={s.true}></span>
                                 <span className={s.true}></span>
-                                <span className={s.true}></span>
+                                <span className={s.false}></span>
                             </div>
                         </div>
                         <p className={s.level}>Advanced</p>
@@ -121,7 +121,7 @@ const Info = () => {
                                 <span className={s.true}></span>
                                 <span className={s.true}></span>
                                 <span className={s.true}></span>
-                                <span className={s.true}></span>
+                                <span className={s.false}></span>
                             </div>
                         </div>
                         <p className={s.level}>Advanced</p>
@@ -137,7 +137,7 @@ const Info = () => {
                                 <span className={s.true}></span>
                                 <span className={s.true}></span>
                                 <span className={s.true}></span>
-                                <span className={s.true}></span>
+                                <span className={s.false}></span>
                             </div>
                         </div>
                         <p className={s.level}>C1</p>
@@ -162,8 +162,8 @@ const Info = () => {
                                 <span className={s.true}></span>
                                 <span className={s.true}></span>
                                 <span className={s.true}></span>
-                                <span className={s.true}></span>
-                                <span className={s.true}></span>
+                                <span className={s.false}></span>
+                                <span className={s.false}></span>
                             </div>
                         </div>
                         <p className={s.level}>B2</p>
@@ -186,10 +186,10 @@ const Info = () => {
                             <p className={s.name}>Japanese</p>
                             <div className={s.switches}>
                                 <span className={s.true}></span>
-                                <span className={s.true}></span>
-                                <span className={s.true}></span>
-                                <span className={s.true}></span>
-                                <span className={s.true}></span>
+                                <span className={s.false}></span>
+                                <span className={s.false}></span>
+                                <span className={s.false}></span>
+                                <span className={s.false}></span>
                             </div>
                         </div>
                         <p className={s.level}>A1</p>

@@ -53,15 +53,26 @@
 }
 
 .popup {
+    display: none;
     position: relative;
     cursor: pointer;
-    opacity: 0;
     transition: all .4s ease-in-out;
     z-index: 6;
+    transform: scale(1);
+
+    @media (min-width: 980px) {
+        display: block;
+        opacity: 0;
+        transform: scale(1.05);
+    }
 }
 
 .image:hover .popup {
-    opacity: 1;
+    display: block;
+
+    @media (min-width: 980px) {
+        opacity: 1;
+    }
 }
 
 .image:hover {

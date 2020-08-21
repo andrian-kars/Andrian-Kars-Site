@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import s from './Portfolio.module.scss'
 import Navigation from '../Navigation/Navigation';
 import Filter from './Filter/Filter';
@@ -19,7 +19,7 @@ const Portfolio = () => {
             <div className={s.portfolio}>
                 <div className={s.content}>
                     <h3 className={s.heading}>Portfolio</h3>
-                    <BrowserRouter>
+                    <Router>
                         <Filter />
                         <div className={s.projects}>
                             <Switch>
@@ -31,7 +31,7 @@ const Portfolio = () => {
                                 <Route path="/portfolio/react" render={() => <ReactProjects />} />
                             </Switch>
                         </div>
-                    </BrowserRouter>
+                    </Router>
                 </div>
             </div>
         </section>
