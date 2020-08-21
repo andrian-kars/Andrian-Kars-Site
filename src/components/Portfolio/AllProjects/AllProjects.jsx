@@ -27,7 +27,7 @@ export const AndrianKars = () => {
             ProjectName="This Website"
             ProjectTechnologies="SASS / React"
             ProjectImage={{ backgroundImage: `url(${AndrianKarsBackground})` }}
-            ProjectLink="https://andrian-kars.github.io/Andrian-Kars/"
+            ProjectLink="https://andrian-kars.github.io/Andrian-Kars-Site/"
         />
     )
 }
