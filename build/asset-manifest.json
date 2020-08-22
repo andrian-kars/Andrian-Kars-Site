@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/andrian-kars-site/static/css/main.5675f6a8.chunk.css",
+    "main.js": "/andrian-kars-site/static/js/main.61fdf7f0.chunk.js",
+    "main.js.map": "/andrian-kars-site/static/js/main.61fdf7f0.chunk.js.map",
+    "runtime-main.js": "/andrian-kars-site/static/js/runtime-main.2e115234.js",
+    "runtime-main.js.map": "/andrian-kars-site/static/js/runtime-main.2e115234.js.map",
+    "static/css/2.764ccc25.chunk.css": "/andrian-kars-site/static/css/2.764ccc25.chunk.css",
+    "static/js/2.03f7af73.chunk.js": "/andrian-kars-site/static/js/2.03f7af73.chunk.js",
+    "static/js/2.03f7af73.chunk.js.map": "/andrian-kars-site/static/js/2.03f7af73.chunk.js.map",
+    "index.html": "/andrian-kars-site/index.html",
+    "precache-manifest.ae58f1b7fb1d89927b963102847750a6.js": "/andrian-kars-site/precache-manifest.ae58f1b7fb1d89927b963102847750a6.js",
+    "service-worker.js": "/andrian-kars-site/service-worker.js",
+    "static/css/2.764ccc25.chunk.css.map": "/andrian-kars-site/static/css/2.764ccc25.chunk.css.map",
+    "static/css/main.5675f6a8.chunk.css.map": "/andrian-kars-site/static/css/main.5675f6a8.chunk.css.map",
+    "static/js/2.03f7af73.chunk.js.LICENSE.txt": "/andrian-kars-site/static/js/2.03f7af73.chunk.js.LICENSE.txt",
+    "static/media/andrian-kars.jpg": "/andrian-kars-site/static/media/andrian-kars.56575512.jpg",
+    "static/media/apollo.jpg": "/andrian-kars-site/static/media/apollo.c1650740.jpg",
+    "static/media/brainbook.jpg": "/andrian-kars-site/static/media/brainbook.b04900b6.jpg",
+    "static/media/About.module.scss": "/andrian-kars-site/static/media/contact-top.bf0dd2ab.jpeg",
+    "static/media/Contact.module.scss": "/andrian-kars-site/static/media/edit.3c3e9c6e.svg",
+    "static/media/Home.module.scss": "/andrian-kars-site/static/media/home-main.a187d469.jpg",
+    "static/media/leo-shop.jpg": "/andrian-kars-site/static/media/leo-shop.aebf0d73.jpg",
+    "static/media/Info.module.scss": "/andrian-kars-site/static/media/year.e2ee8db4.svg",
+    "static/media/mavic-2.jpg": "/andrian-kars-site/static/media/mavic-2.41fb3d85.jpg",
+    "static/media/organic.jpg": "/andrian-kars-site/static/media/organic.364ed231.jpg",
+    "static/media/osf-academy.jpg": "/andrian-kars-site/static/media/osf-academy.ea9796ef.jpg",
+    "static/media/personal-site.jpg": "/andrian-kars-site/static/media/personal-site.d444e5d3.jpg",
+    "static/media/surface1.jpg": "/andrian-kars-site/static/media/surface1.3d6b4ac1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2e115234.js",
+    "static/css/2.764ccc25.chunk.css",
+    "static/js/2.03f7af73.chunk.js",
+    "static/css/main.5675f6a8.chunk.css",
+    "static/js/main.61fdf7f0.chunk.js"
+  ]
+}
