@@ -118,7 +118,7 @@ const AllProjects = (props) => {
                 <PersonalSite />
             </div>
             <div className={s.row}>
-                <Apollo />
+                <Apollo />s
                 <LEOShop />
             </div>
             <div className={s.row}>
