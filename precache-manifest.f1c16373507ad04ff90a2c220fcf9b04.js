@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2350d1d1cb87c682013e6a60f2f15386",
+    "revision": "b053b9cb3bbe96eb5a452124107b1e27",
     "url": "/andrian-kars-site/index.html"
   },
   {
-    "revision": "934381ebccc6338e7578",
+    "revision": "067f887d24a8329f2c57",
     "url": "/andrian-kars-site/static/css/2.764ccc25.chunk.css"
   },
   {
-    "revision": "ac960b151ba361b68cb6",
-    "url": "/andrian-kars-site/static/css/main.5675f6a8.chunk.css"
+    "revision": "1dd236973fec513a592e",
+    "url": "/andrian-kars-site/static/css/main.2e405c51.chunk.css"
   },
   {
-    "revision": "934381ebccc6338e7578",
-    "url": "/andrian-kars-site/static/js/2.03f7af73.chunk.js"
+    "revision": "067f887d24a8329f2c57",
+    "url": "/andrian-kars-site/static/js/2.ac9f0a5f.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/andrian-kars-site/static/js/2.03f7af73.chunk.js.LICENSE.txt"
+    "url": "/andrian-kars-site/static/js/2.ac9f0a5f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ac960b151ba361b68cb6",
-    "url": "/andrian-kars-site/static/js/main.61fdf7f0.chunk.js"
+    "revision": "1dd236973fec513a592e",
+    "url": "/andrian-kars-site/static/js/main.f142737d.chunk.js"
   },
   {
-    "revision": "5d761865f4bdd93db550",
-    "url": "/andrian-kars-site/static/js/runtime-main.2e115234.js"
+    "revision": "5f5801e09e8e9bdf6ea4",
+    "url": "/andrian-kars-site/static/js/runtime-main.247c2b9e.js"
   },
   {
     "revision": "56575512aca068ec6a199bea9b0dc57a",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c16507408445685584a16f1f15b9ee69",
     "url": "/andrian-kars-site/static/media/apollo.c1650740.jpg"
+  },
+  {
+    "revision": "8e05758cbbe71ff9e31f6703bc4d7c95",
+    "url": "/andrian-kars-site/static/media/avatar.8e05758c.jpg"
   },
   {
     "revision": "b04900b6f9f171864ad07204e9baab1e",
@@ -48,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/andrian-kars-site/static/media/contact-top.bf0dd2ab.jpeg"
   },
   {
-    "revision": "3c3e9c6ed439531e9ea6555c6bafeb71",
-    "url": "/andrian-kars-site/static/media/edit.3c3e9c6e.svg"
+    "revision": "6b6d27d1c42145bad602ed827c2e6148",
+    "url": "/andrian-kars-site/static/media/edit.6b6d27d1.svg"
   },
   {
     "revision": "d020eec2da26c1806221639393915a65",
@@ -64,16 +68,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/andrian-kars-site/static/media/leo-shop.aebf0d73.jpg"
   },
   {
-    "revision": "7ca6f860354f3e82f67fc9fbd2da2ea3",
-    "url": "/andrian-kars-site/static/media/like.7ca6f860.svg"
+    "revision": "f196ab301a12fb423fd84061e784ab69",
+    "url": "/andrian-kars-site/static/media/like.f196ab30.svg"
   },
   {
     "revision": "41fb3d856b8c2cbafcdba326897304de",
     "url": "/andrian-kars-site/static/media/mavic-2.41fb3d85.jpg"
   },
   {
-    "revision": "0cac6f507afff413c253cd30f5f6054e",
-    "url": "/andrian-kars-site/static/media/medal.0cac6f50.svg"
+    "revision": "9b401d7789c3670a980faff056c91ead",
+    "url": "/andrian-kars-site/static/media/medal.9b401d77.svg"
   },
   {
     "revision": "364ed231247ae3e36cb6ba42b5dd276f",
