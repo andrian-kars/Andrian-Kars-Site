@@ -1,12 +1,13 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import s from './Navigation.module.scss'
+import avatar from './../../usercontent/images/avatar.jpg'
 
 const Navigation = () => {
     return (
         <section className={s.main}>
             <div className={s.main_whrapper}>
-                <img className={s.avatar} src="../images/avatar.jpg" alt="my-avatar" />
+                <img className={s.avatar} src={avatar} alt="my-avatar" />
                 <h1 className={s.heading}>Andrian Karsanashvili</h1>
                 <div className={s.socials}>
                     <a className={s.social} href="https://www.linkedin.com/in/andrian-kars/" rel="noopener noreferrer" target="_blank">
