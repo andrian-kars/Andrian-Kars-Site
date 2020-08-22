@@ -17,7 +17,7 @@ export const Brainbook = () => {
             ProjectName="Social Network"
             ProjectTechnologies="tbd SASS / React"
             ProjectImage={{ backgroundImage: `url(${BrainbookBackground})` }}
-            ProjectLink="https://andrian-kars.github.io/brainbook/"
+            ProjectLink="https://andrian-kars.github.io/Brainbook/"
         />
     )
 }
@@ -27,7 +27,7 @@ export const AndrianKars = () => {
             ProjectName="This Website"
             ProjectTechnologies="SASS / React"
             ProjectImage={{ backgroundImage: `url(${AndrianKarsBackground})` }}
-            ProjectLink="https://andrian-kars.github.io/andrian-kars-site/"
+            ProjectLink="https://andrian-kars.github.io/Andrian-Kars-Site/"
         />
     )
 }
