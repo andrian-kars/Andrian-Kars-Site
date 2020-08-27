@@ -153,7 +153,7 @@ const Info = () => {
                                 <span className={s.true}></span>
                             </div>
                         </div>
-                        <p className={s.level}>C2</p>
+                        <p className={s.level}>Native</p>
                     </div>
                     <div className={s.item}>
                         <div className={s.ability}>
@@ -179,7 +179,7 @@ const Info = () => {
                                 <span className={s.true}></span>
                             </div>
                         </div>
-                        <p className={s.level}>C2</p>
+                        <p className={s.level}>Native</p>
                     </div>
                     <div className={s.item}>
                         <div className={s.ability}>
