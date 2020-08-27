@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/andrian-kars-site/static/css/main.2e405c51.chunk.css",
-    "main.js": "/andrian-kars-site/static/js/main.f142737d.chunk.js",
-    "main.js.map": "/andrian-kars-site/static/js/main.f142737d.chunk.js.map",
+    "main.css": "/andrian-kars-site/static/css/main.77661b79.chunk.css",
+    "main.js": "/andrian-kars-site/static/js/main.1f3e0ff9.chunk.js",
+    "main.js.map": "/andrian-kars-site/static/js/main.1f3e0ff9.chunk.js.map",
     "runtime-main.js": "/andrian-kars-site/static/js/runtime-main.247c2b9e.js",
     "runtime-main.js.map": "/andrian-kars-site/static/js/runtime-main.247c2b9e.js.map",
     "static/css/2.764ccc25.chunk.css": "/andrian-kars-site/static/css/2.764ccc25.chunk.css",
-    "static/js/2.ac9f0a5f.chunk.js": "/andrian-kars-site/static/js/2.ac9f0a5f.chunk.js",
-    "static/js/2.ac9f0a5f.chunk.js.map": "/andrian-kars-site/static/js/2.ac9f0a5f.chunk.js.map",
+    "static/js/2.fcd84975.chunk.js": "/andrian-kars-site/static/js/2.fcd84975.chunk.js",
+    "static/js/2.fcd84975.chunk.js.map": "/andrian-kars-site/static/js/2.fcd84975.chunk.js.map",
     "index.html": "/andrian-kars-site/index.html",
-    "precache-manifest.f1c16373507ad04ff90a2c220fcf9b04.js": "/andrian-kars-site/precache-manifest.f1c16373507ad04ff90a2c220fcf9b04.js",
+    "precache-manifest.dddb3ab2d89610b46d16aacda7478cba.js": "/andrian-kars-site/precache-manifest.dddb3ab2d89610b46d16aacda7478cba.js",
     "service-worker.js": "/andrian-kars-site/service-worker.js",
     "static/css/2.764ccc25.chunk.css.map": "/andrian-kars-site/static/css/2.764ccc25.chunk.css.map",
-    "static/css/main.2e405c51.chunk.css.map": "/andrian-kars-site/static/css/main.2e405c51.chunk.css.map",
-    "static/js/2.ac9f0a5f.chunk.js.LICENSE.txt": "/andrian-kars-site/static/js/2.ac9f0a5f.chunk.js.LICENSE.txt",
+    "static/css/main.77661b79.chunk.css.map": "/andrian-kars-site/static/css/main.77661b79.chunk.css.map",
+    "static/js/2.fcd84975.chunk.js.LICENSE.txt": "/andrian-kars-site/static/js/2.fcd84975.chunk.js.LICENSE.txt",
     "static/media/andrian-kars.jpg": "/andrian-kars-site/static/media/andrian-kars.56575512.jpg",
     "static/media/apollo.jpg": "/andrian-kars-site/static/media/apollo.c1650740.jpg",
     "static/media/avatar.jpg": "/andrian-kars-site/static/media/avatar.8e05758c.jpg",
@@ -32,8 +32,8 @@
   "entrypoints": [
     "static/js/runtime-main.247c2b9e.js",
     "static/css/2.764ccc25.chunk.css",
-    "static/js/2.ac9f0a5f.chunk.js",
-    "static/css/main.2e405c51.chunk.css",
-    "static/js/main.f142737d.chunk.js"
+    "static/js/2.fcd84975.chunk.js",
+    "static/css/main.77661b79.chunk.css",
+    "static/js/main.1f3e0ff9.chunk.js"
   ]
 }

@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b053b9cb3bbe96eb5a452124107b1e27",
+    "revision": "3d6c84596eb71fa7b61bfb416568b479",
     "url": "/andrian-kars-site/index.html"
   },
   {
-    "revision": "067f887d24a8329f2c57",
+    "revision": "f62471daba1dd3f571f2",
     "url": "/andrian-kars-site/static/css/2.764ccc25.chunk.css"
   },
   {
-    "revision": "1dd236973fec513a592e",
-    "url": "/andrian-kars-site/static/css/main.2e405c51.chunk.css"
+    "revision": "58b52498d09c0163743d",
+    "url": "/andrian-kars-site/static/css/main.77661b79.chunk.css"
   },
   {
-    "revision": "067f887d24a8329f2c57",
-    "url": "/andrian-kars-site/static/js/2.ac9f0a5f.chunk.js"
+    "revision": "f62471daba1dd3f571f2",
+    "url": "/andrian-kars-site/static/js/2.fcd84975.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/andrian-kars-site/static/js/2.ac9f0a5f.chunk.js.LICENSE.txt"
+    "url": "/andrian-kars-site/static/js/2.fcd84975.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1dd236973fec513a592e",
-    "url": "/andrian-kars-site/static/js/main.f142737d.chunk.js"
+    "revision": "58b52498d09c0163743d",
+    "url": "/andrian-kars-site/static/js/main.1f3e0ff9.chunk.js"
   },
   {
     "revision": "5f5801e09e8e9bdf6ea4",
