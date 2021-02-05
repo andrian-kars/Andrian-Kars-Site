@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/andrian-kars-site/precache-manifest.dddb3ab2d89610b46d16aacda7478cba.js"
+  "/andrian-kars-site/precache-manifest.a697e6dd9b983957c75a0ac4dbc387cb.js"
 );
 
 self.addEventListener('message', (event) => {

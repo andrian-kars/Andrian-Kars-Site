@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/andrian-kars-site/static/css/main.77661b79.chunk.css",
-    "main.js": "/andrian-kars-site/static/js/main.1f3e0ff9.chunk.js",
-    "main.js.map": "/andrian-kars-site/static/js/main.1f3e0ff9.chunk.js.map",
+    "main.css": "/andrian-kars-site/static/css/main.0fb34eb6.chunk.css",
+    "main.js": "/andrian-kars-site/static/js/main.48d24ee4.chunk.js",
+    "main.js.map": "/andrian-kars-site/static/js/main.48d24ee4.chunk.js.map",
     "runtime-main.js": "/andrian-kars-site/static/js/runtime-main.247c2b9e.js",
     "runtime-main.js.map": "/andrian-kars-site/static/js/runtime-main.247c2b9e.js.map",
     "static/css/2.764ccc25.chunk.css": "/andrian-kars-site/static/css/2.764ccc25.chunk.css",
     "static/js/2.fcd84975.chunk.js": "/andrian-kars-site/static/js/2.fcd84975.chunk.js",
     "static/js/2.fcd84975.chunk.js.map": "/andrian-kars-site/static/js/2.fcd84975.chunk.js.map",
     "index.html": "/andrian-kars-site/index.html",
-    "precache-manifest.dddb3ab2d89610b46d16aacda7478cba.js": "/andrian-kars-site/precache-manifest.dddb3ab2d89610b46d16aacda7478cba.js",
+    "precache-manifest.a697e6dd9b983957c75a0ac4dbc387cb.js": "/andrian-kars-site/precache-manifest.a697e6dd9b983957c75a0ac4dbc387cb.js",
     "service-worker.js": "/andrian-kars-site/service-worker.js",
     "static/css/2.764ccc25.chunk.css.map": "/andrian-kars-site/static/css/2.764ccc25.chunk.css.map",
-    "static/css/main.77661b79.chunk.css.map": "/andrian-kars-site/static/css/main.77661b79.chunk.css.map",
+    "static/css/main.0fb34eb6.chunk.css.map": "/andrian-kars-site/static/css/main.0fb34eb6.chunk.css.map",
     "static/js/2.fcd84975.chunk.js.LICENSE.txt": "/andrian-kars-site/static/js/2.fcd84975.chunk.js.LICENSE.txt",
     "static/media/andrian-kars.jpg": "/andrian-kars-site/static/media/andrian-kars.56575512.jpg",
     "static/media/apollo.jpg": "/andrian-kars-site/static/media/apollo.c1650740.jpg",
-    "static/media/avatar.jpg": "/andrian-kars-site/static/media/avatar.8e05758c.jpg",
+    "static/media/avatar.jpg": "/andrian-kars-site/static/media/avatar.07b67512.jpg",
     "static/media/brainbook.jpg": "/andrian-kars-site/static/media/brainbook.b04900b6.jpg",
     "static/media/About.module.scss": "/andrian-kars-site/static/media/contact-top.bf0dd2ab.jpeg",
     "static/media/Contact.module.scss": "/andrian-kars-site/static/media/edit.6b6d27d1.svg",
@@ -33,7 +33,7 @@
     "static/js/runtime-main.247c2b9e.js",
     "static/css/2.764ccc25.chunk.css",
     "static/js/2.fcd84975.chunk.js",
-    "static/css/main.77661b79.chunk.css",
-    "static/js/main.1f3e0ff9.chunk.js"
+    "static/css/main.0fb34eb6.chunk.css",
+    "static/js/main.48d24ee4.chunk.js"
   ]
 }

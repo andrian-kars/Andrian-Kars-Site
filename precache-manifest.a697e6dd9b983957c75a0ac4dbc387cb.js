@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3d6c84596eb71fa7b61bfb416568b479",
+    "revision": "09e762f802334ce275103ce771918aab",
     "url": "/andrian-kars-site/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/andrian-kars-site/static/css/2.764ccc25.chunk.css"
   },
   {
-    "revision": "58b52498d09c0163743d",
-    "url": "/andrian-kars-site/static/css/main.77661b79.chunk.css"
+    "revision": "7f613c67a0387cd00a8c",
+    "url": "/andrian-kars-site/static/css/main.0fb34eb6.chunk.css"
   },
   {
     "revision": "f62471daba1dd3f571f2",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/andrian-kars-site/static/js/2.fcd84975.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "58b52498d09c0163743d",
-    "url": "/andrian-kars-site/static/js/main.1f3e0ff9.chunk.js"
+    "revision": "7f613c67a0387cd00a8c",
+    "url": "/andrian-kars-site/static/js/main.48d24ee4.chunk.js"
   },
   {
     "revision": "5f5801e09e8e9bdf6ea4",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/andrian-kars-site/static/media/apollo.c1650740.jpg"
   },
   {
-    "revision": "8e05758cbbe71ff9e31f6703bc4d7c95",
-    "url": "/andrian-kars-site/static/media/avatar.8e05758c.jpg"
+    "revision": "07b67512156fb889a75ca67608387692",
+    "url": "/andrian-kars-site/static/media/avatar.07b67512.jpg"
   },
   {
     "revision": "b04900b6f9f171864ad07204e9baab1e",
