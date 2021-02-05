@@ -67,6 +67,17 @@
     }
 }
 
+.badge {
+    width: 260px;
+    height: 25px;
+    background-image: url(https://www.codewars.com/users/andrian-kars/badges/large);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    margin-bottom: 30px;
+    z-index: 420;
+}
+
 .heading {
     display: inline;
     color: #FFD033;
