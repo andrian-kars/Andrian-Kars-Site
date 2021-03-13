@@ -5,16 +5,16 @@ import Info from './Info/Info';
 
 
 
-const About = () => {
+const About = (props) => {
     return (
         <section className={s.whrapper}>
             <div className={s.navigation}>
-                <Navigation className={s.navigation} />
+                <Navigation className={s.navigation} navPage={props.navPage} />
             </div>
             <div className={s.about}>
                 <div className={s.content}>
                     <div className={s.top_image}></div>
-                    <Info />
+                    <Info aboutPage={props.aboutPage} />
                 </div>
             </div>
         </section>

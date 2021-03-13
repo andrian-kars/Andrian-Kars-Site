@@ -10,11 +10,11 @@ import LESSProjects from './LESSProjects/LESSProjects';
 import JSProjects from './JSProjects/JSProjects';
 import ReactProjects from './ReactProjects/ReactProjects';
 
-const Portfolio = () => {
+const Portfolio = (props) => {
     return (
         <section className={s.whrapper}>
             <div className={s.navigation}>
-                <Navigation className={s.navigation} />
+                <Navigation className={s.navigation} navPage={props.navPage} />
             </div>
             <div className={s.portfolio}>
                 <div className={s.content}>

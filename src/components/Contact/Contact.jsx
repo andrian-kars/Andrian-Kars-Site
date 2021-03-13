@@ -2,11 +2,11 @@ import React from 'react'
 import s from './Contact.module.scss'
 import Navigation from '../Navigation/Navigation';
 
-const Contact = () => {
+const Contact = (props) => {
     return (
         <section className={s.whrapper}>
             <div className={s.navigation}>
-                <Navigation className={s.navigation} />
+                <Navigation className={s.navigation} navPage={props.navPage} />
             </div>
             <div className={s.contact}>
                 <div className={s.content}>

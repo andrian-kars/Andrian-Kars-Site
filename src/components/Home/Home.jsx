@@ -3,7 +3,7 @@ import s from './Home.module.scss'
 import Navigation from './../Navigation/Navigation'
 import avatar from './../../usercontent/images/avatar.jpg'
 
-const Home = () => {
+const Home = (props) => {
     return (
         <section className={s.whrapper}>
             <div className={s.home}>
@@ -44,7 +44,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <Navigation />
+            <Navigation navPage={props.navPage} />
         </section>
     )
 }

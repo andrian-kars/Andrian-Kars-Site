@@ -27,7 +27,7 @@ export const AndrianKars = () => {
             ProjectName="This Website"
             ProjectTechnologies="SASS / React"
             ProjectImage={{ backgroundImage: `url(${AndrianKarsBackground})` }}
-            ProjectLink="https://andrian-kars.github.io/andrian-kars-site/"
+            ProjectLink="https://andrian-kars.github.io/"
         />
     )
 }
@@ -37,7 +37,7 @@ export const Mavic2 = () => {
             ProjectName="Mavic 2"
             ProjectTechnologies="tbd SASS / JavaScript"
             ProjectImage={{ backgroundImage: `url(${Mavic2Background})` }}
-            ProjectLink="https://andrian-kars.github.io/Mavic-2-Build/"
+            ProjectLink="https://andrian-kars.github.io/HTML-Coding/mavic-2/index.html"
         />
     )
 }
@@ -47,7 +47,7 @@ export const OSFAcademy = () => {
             ProjectName="OSF Academy"
             ProjectTechnologies="SASS / JavaScript"
             ProjectImage={{ backgroundImage: `url(${OSFAcademyBackground})` }}
-            ProjectLink="https://andrian-kars.github.io/OSF-Academy-Build/"
+            ProjectLink="https://andrian-kars.github.io/HTML-Coding/osf-academy/index.html"
         />
     )
 }
@@ -57,7 +57,7 @@ export const Surface1 = () => {
             ProjectName="Surface1"
             ProjectTechnologies="LESS"
             ProjectImage={{ backgroundImage: `url(${Surface1Background})` }}
-            ProjectLink="https://andrian-kars.github.io/Surface1-Build/"
+            ProjectLink="https://andrian-kars.github.io/HTML-Coding/surface1/index.html"
         />
     )
 }
@@ -67,7 +67,7 @@ export const PersonalSite = () => {
             ProjectName="Personal Site"
             ProjectTechnologies="LESS / JavaScript"
             ProjectImage={{ backgroundImage: `url(${PersonalSiteBackground})` }}
-            ProjectLink="https://andrian-kars.github.io/Varbin-Build/"
+            ProjectLink="https://andrian-kars.github.io/HTML-Coding/varbin-personal/index.html"
         />
     )
 }
@@ -77,7 +77,7 @@ export const Apollo = () => {
             ProjectName="Apollo"
             ProjectTechnologies="LESS"
             ProjectImage={{ backgroundImage: `url(${ApolloBackground})` }}
-            ProjectLink="https://andrian-kars.github.io/Apollo-Build/"
+            ProjectLink="https://andrian-kars.github.io/HTML-Coding/apollo/index.html"
         />
     )
 }
@@ -87,7 +87,7 @@ export const LEOShop = () => {
             ProjectName="LEO Shop"
             ProjectTechnologies="HTML5"
             ProjectImage={{ backgroundImage: `url(${LEOShopBackground})` }}
-            ProjectLink="https://andrian-kars.github.io/LEO-Shop-Build/"
+            ProjectLink="https://andrian-kars.github.io/HTML-Coding/leo-shop/index.html"
         />
     )
 }
@@ -97,7 +97,7 @@ export const Organic = () => {
             ProjectName="Organic"
             ProjectTechnologies="HTML5"
             ProjectImage={{ backgroundImage: `url(${OrganicBackground})` }}
-            ProjectLink="https://andrian-kars.github.io/Organic-Build/"
+            ProjectLink="https://andrian-kars.github.io/HTML-Coding/organic/index.html"
         />
     )
 }

@@ -5,11 +5,12 @@ import 'normalize.css';
 import './index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import state from "./state"
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <App />
+      <App state={state} />
     </Router>
   </React.StrictMode>,
   document.getElementById('root')
