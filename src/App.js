@@ -16,7 +16,6 @@ function App(props) {
         <Route path="/resume" render={() => <Resume navPage={props.state.navPage} />} />
         <Route path="/portfolio" render={() => <Portfolio navPage={props.state.navPage} />} />
         <Route path="/contact" render={() => <Contact navPage={props.state.navPage} />} />
-        {/* <Route component={Home} /> */}
       </Switch>
     </div>
   );

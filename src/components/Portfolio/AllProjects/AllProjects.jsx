@@ -15,9 +15,9 @@ export const Brainbook = () => {
     return (
         <NewProject
             ProjectName="Social Network"
-            ProjectTechnologies="tbd SASS / React"
+            ProjectTechnologies="SASS / React / TypeScript"
             ProjectImage={{ backgroundImage: `url(${BrainbookBackground})` }}
-            ProjectLink="https://andrian-kars.github.io/brainbook/"
+            ProjectLink="https://andrian-kars.github.io/social/"
         />
     )
 }
